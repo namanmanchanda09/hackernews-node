@@ -25,6 +25,14 @@
 6. Select the appropriate options to setup Prisma
 7. Inside the prisma folder run `prisma generate`
 
+### Adding authentication
+1. After the changes in `datamodel.prisma` redeploy the model using `prisma deploy` from root folder
+2. Make the changes in schema
+3. Create the resolver function
+4. Run `yarn add jsonwebtoken bcryptjs`
+5. Create `src/utils.js`
+6. Make the necessary changes in `index.js`
+
 
 
 
