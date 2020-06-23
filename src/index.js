@@ -5,6 +5,7 @@ const Mutation = require('./resolvers/mutation')
 const User = require('./resolvers/User')
 const Link = require('./resolvers/Link')
 const Subscription = require('./resolvers/Subscription')
+const Vote = require('./resolvers/Vote')
 
 
 const resolvers = {
@@ -12,9 +13,9 @@ const resolvers = {
     Mutation,
     Subscription,
     User,
-    Link
+    Link,
+    Vote,
 }
-
 
 const server = new GraphQLServer({
     typeDefs : './src/schema.graphql',
