@@ -39,6 +39,10 @@
 3. Update `index.js`
 4. Listen to subscriptions on `http://localhost:4000` and make mutations through another `https://localhost:4000`
 
+### Filtering, Pagination and Sorting
+1. Change the schema and the appropriate resolvers
+
+
 
 
 
