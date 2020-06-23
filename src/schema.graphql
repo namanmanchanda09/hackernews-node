@@ -1,6 +1,6 @@
 type Query {
     info: String!
-    feed: [Link!]!
+    feed(filter: String): [Link!]!
 }
 
 type Mutation {
@@ -40,6 +40,8 @@ type Vote{
     link: Link!
     user: User!
 }
+
+
 
 
 
