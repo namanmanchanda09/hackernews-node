@@ -33,6 +33,12 @@
 5. Create `src/utils.js`
 6. Make the necessary changes in `index.js`
 
+### Subscriptions
+1. Add the subscriptions in the schema
+2. Update the resolvers
+3. Update `index.js`
+4. Listen to subscriptions on `http://localhost:4000` and make mutations through another `https://localhost:4000`
+
 
 
 
