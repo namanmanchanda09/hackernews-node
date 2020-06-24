@@ -27,6 +27,9 @@ The complete app can be found [here](https://github.com/namanmanchanda09/hackern
 6. Select the appropriate options to setup Prisma
 7. Inside the prisma folder run `prisma generate`
 
+### Connecting Server and Database with Prisma Client
+1. In root directory run `yarn add prisma-client-lib`
+
 ### Adding authentication
 1. After the changes in `datamodel.prisma` redeploy the model using `prisma deploy` from root folder
 2. Make the changes in schema
